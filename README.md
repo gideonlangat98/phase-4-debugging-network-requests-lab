@@ -59,15 +59,14 @@ developing a process, and it's helpful to document your steps as part of
 developing your own process.
 
 ## Your Notes Here
-
 - Add a new toy when the toy form is submitted
 
-  - How I debugged:
+  - How I debugged: I did fix the typo of additional 's' added to create action on line 10 of toys_controllers.rb
 
 - Update the number of likes for a toy
 
-  - How I debugged:
+  - How I debugged: I added (render json: toy) so as the update to be updated in json formart
 
 - Donate a toy to Goodwill (and delete it from our database)
 
-  - How I debugged:
+  - How I debugged: I did remove toy.destroy line of code to solve the delete method bug
