@@ -69,4 +69,4 @@ developing your own process.
 
 - Donate a toy to Goodwill (and delete it from our database)
 
-  - How I debugged: I did remove toy.destroy line of code to solve the delete method bug
+  - How I debugged: I did add #destroy action in config file  to solve the delete method bug
